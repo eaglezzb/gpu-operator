@@ -114,7 +114,7 @@ driver:
     useHostMofed: false
   manager:
     image: k8s-driver-manager
-    repository: nvcr.io/nvidia/cloud-native
+    repository: k8sgcr.azk8s.cn/nvidia/cloud-native
     version: v0.5.1
     imagePullPolicy: IfNotPresent
     env:
